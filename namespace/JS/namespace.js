@@ -2,9 +2,10 @@
 var BOOS0010 = {
     init: function () {
         let d = document.createElement("div");
-        d.className="box";
+        document.getElementById("boxes");
+        d.className="boxes";
         d.textContent="BOOS0010";
-        document.getElementById("boxes").appendChild(d);
+        d.appendChild(d);
         
         d.addEventListener("click",clicked);
         d.addEventListener("mouseover",hover);
@@ -13,7 +14,7 @@ var BOOS0010 = {
         function clicked(ev){
             d.style.borderColor="red";
             d.style.backgroundColor="blue";
-            d.style.color="red";
+            
         }
         
         function hover(ev){
