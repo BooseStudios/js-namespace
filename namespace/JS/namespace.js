@@ -2,7 +2,7 @@
 var BOOS0010 = {
     init: function () {
         let d = document.createElement("div");
-        document.getElementById("boxes");
+        document.getElementById("box");
         d.className="boxes";
         d.textContent="BOOS0010";
         d.appendChild(d);
@@ -12,8 +12,8 @@ var BOOS0010 = {
         d.addEventListener("mouseout",release);
         
         function clicked(ev){
-            d.style.borderColor="red";
-            d.style.backgroundColor="blue";
+            d.style.borderColor="black";
+            d.style.backgroundColor="white";
             
         }
         
