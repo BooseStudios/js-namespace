@@ -25,4 +25,4 @@ var BOOS0010 = {
             ev.currentTarget.classList.toggle("highlight");
         }
     }
-};
+}
